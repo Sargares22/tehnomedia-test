@@ -1,0 +1,124 @@
+*
+	margin: 0
+	padding: 0
+html, body
+	height: 100%
+body
+	font-size: 17px 
+	font-family: Roboto, sans-serif
+	color: #000
+	overflow-x: hidden
+	button, a
+		color: #000
+		text-decoration: none
+.background
+	position: fixed
+	top: 0
+	right: 0
+	left: 0
+	bottom: -200px
+	z-index: -1
+	background: linear-gradient(to top, lighten(#e6e6e6, 5%), darken(#e6e6e6, 5%))
+	background-size: cover
+li
+	list-style-type: none
+#root
+	height: 100%
+	width: 100%
+.spinner
+	width: 100%
+	height: 100%
+	position: relative
+	transform: translateZ(0) scale(1)
+	backface-visibility: hidden
+	transform-origin: 0 0	
+	opacity: 1
+	div
+		box-sizing: border-box !important
+	> div
+		position: absolute
+		width: 67.67px
+		height: 67.67px
+		top: 16.665px
+		left: 16.665px
+		border-radius: 50%
+		border: 5.05px solid #000
+		border-color: darken(#e6e6e6, 50%) transparent darken(#e6e6e6, 50%) transparent
+		animation: spinner 0.78125s linear infinite
+		&:nth-child(2), &:nth-child(4)
+			width: 55.55px
+			height: 55.55px
+			top: 22.725px
+			left: 22.725px
+			animation: spinner 0.78125s linear infinite reverse
+		&:nth-child(2)
+			border-color: transparent darken(#e6e6e6, 30%) transparent darken(#e6e6e6, 30%)
+		&:nth-child(3)
+			border-color: transparent
+			div
+				position: absolute
+				width: 100%
+				height: 100%
+				transform: rotate(45deg)
+				&:before
+					content: ""
+					display: block
+					position: absolute
+					width: 5.05px
+					height: 5.05px
+					top: -5.05px
+					left: 26.26px
+					background: darken(#e6e6e6, 50%)
+					border-radius: 50%
+					box-shadow: 0 62.62px 0 0 darken(#e6e6e6, 50%)
+				&:after
+					content: ""
+					display: block
+					position: absolute
+					width: 5.05px
+					height: 5.05px
+					top: -5.05px
+					left: 26.26px
+					background: darken(#e6e6e6, 50%)
+					border-radius: 50%
+					box-shadow: 0 62.62px 0 0 darken(#e6e6e6, 50%)
+					left: -5.05px
+					top: 26.26px
+					box-shadow: 62.62px 0 0 0 darken(#e6e6e6, 50%)
+		&:nth-child(4)
+			border-color: transparent
+			div
+				position: absolute
+				width: 100%
+				height: 100%
+				transform: rotate(45deg)
+				&:before
+					content: ""
+					display: block
+					position: absolute
+					width: 5.05px
+					height: 5.05px
+					top: -5.05px
+					left: 20.2px
+					background: darken(#e6e6e6, 30%)
+					border-radius: 50%
+					box-shadow: 0 50.5px 0 0 darken(#e6e6e6, 30%)
+				&:after
+					content: ""
+					display: block
+					position: absolute
+					width: 5.05px
+					height: 5.05px
+					top: -5.05px
+					left: 20.2px
+					background: darken(#e6e6e6, 30%)
+					border-radius: 50%
+					box-shadow: 0 50.5px 0 0 darken(#e6e6e6, 30%)
+					left: -5.05px
+					top: 20.2px
+					box-shadow: 50.5px 0 0 0 darken(#e6e6e6, 30%)
+@keyframes spinner
+	0%
+		transform: rotate(0)
+	100%
+		transform: rotate(360deg)
