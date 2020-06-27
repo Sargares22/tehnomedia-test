@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad30012f6703d1a601c79d731453f7e9",
+    "revision": "a0aadc880529378f949c0d8d55c82ce9",
     "url": "/tehnomedia-test/index.html"
   },
   {
-    "revision": "aab00d1e85a9be5a91f2",
+    "revision": "98a8aea12c7a71f3a72f",
     "url": "/tehnomedia-test/static/css/main.9aa4ae74.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tehnomedia-test/static/js/2.01c9e67e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aab00d1e85a9be5a91f2",
-    "url": "/tehnomedia-test/static/js/main.70113d7f.chunk.js"
+    "revision": "98a8aea12c7a71f3a72f",
+    "url": "/tehnomedia-test/static/js/main.f5d6c895.chunk.js"
   },
   {
     "revision": "5c43f98735c71ca649ca",
