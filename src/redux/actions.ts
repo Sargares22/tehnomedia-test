@@ -58,7 +58,7 @@ export const updateTodo = (data: TodoType, checked: boolean = false, redirect: a
 		isNewList(lists, currentList) && dispatch(createList(currentList))
 		if(isEmptyList(todos, prevList, currentList)) {
 			dispatch(deleteList(prevList))
-			redirect('/')
+			redirect('/tehnomedia-test/')
 		}
 		dispatch(closeModal())
 	})
@@ -74,10 +74,12 @@ export const deleteTodo = (data: TodoType, redirect: any = ()=>{}) => async (dis
 	const prevList = findList(todos, id)[0]
 
 	return api.deleteTodo(id).then(result => {
+		console.log(result);
+		
 		dispatch({type: DELETE_TODO, payload: result})
 		if(isEmptyList(todos, prevList)) {
 			dispatch(deleteList(prevList))
-			redirect('/')
+			redirect('/tehnomedia-test/')
 		}
 	})
 	.catch(error => {

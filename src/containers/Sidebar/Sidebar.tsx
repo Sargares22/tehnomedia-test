@@ -20,7 +20,7 @@ export const Sidebar:React.FC = () => {
 	return (
 		<SidebarMain>
 			<SidebarTitle>React Todo</SidebarTitle>
-			<SidebarItem title={'Все задачи'} to={'/'} exact={true} handleChangeList={handleChangeList}/>
+			<SidebarItem title={'Все задачи'} to={'/tehnomedia-test/'} exact={true} handleChangeList={handleChangeList}/>
 			<hr />
 			<SidebarButton onClick={() => showModal()}>Добавить задачу</SidebarButton>
 			<hr />

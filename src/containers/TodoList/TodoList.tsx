@@ -16,7 +16,10 @@ export const TodoList = ({location, history}: RouteComponentProps) => {
 
 	const dispatch = useDispatch();
 	const { todos, loading } = useSelector(((state: AppStateType) => (state.todoList)))
-	const listTitle: string = location.pathname.replace('/','');
+	const listTitle: string = location.pathname.replace('/tehnomedia-test/','');
+
+	console.log(listTitle);
+	
 
 	const data: TodoListType = filterData(todos, listTitle) || [];
 

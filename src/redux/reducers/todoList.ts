@@ -25,7 +25,7 @@ export const todoList = (state = initState, action: ActionTypes): initialStateTy
 				return todo.id === action.payload.id ? {...todo, ...action.payload}	: todo
 			})}
 		case DELETE_TODO:
-			return {...state, todos: state.todos.filter(todo => +todo.id !== action.payload)}
+			return {...state, todos: state.todos.filter(todo => +todo.id !== +action.payload)}
 		case INIT_LISTS:
 			return {...state, lists: action.payload}
 		case SET_ACTIVE_LIST:

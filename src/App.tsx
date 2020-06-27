@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, Redirect } from 'react-router-dom'
 import {useDispatch} from 'react-redux'
 
 import { Sidebar } from './containers/Sidebar/Sidebar';
@@ -39,13 +39,14 @@ function App() {
 			<main className="main">
 				<Switch>
 					<Route
-						path={"/"}
+						path={"/tehnomedia-test/"}
 						component={TodoList}
 					/>
 					<Route
-						path={"/:list"}
+						path={"/tehnomedia-test/:list"}
 						component={TodoList}
 					/>
+					<Route render={() => <Redirect to={{pathname: "/tehnomedia-test/"}} />} />
 				</Switch>
 			</main>
 			<ModalForm/>
