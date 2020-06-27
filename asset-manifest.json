@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tehnomedia-test/static/css/main.9aa4ae74.chunk.css",
-    "main.js": "/tehnomedia-test/static/js/main.a9948fc0.chunk.js",
-    "main.js.map": "/tehnomedia-test/static/js/main.a9948fc0.chunk.js.map",
+    "main.js": "/tehnomedia-test/static/js/main.0fc1ac3e.chunk.js",
+    "main.js.map": "/tehnomedia-test/static/js/main.0fc1ac3e.chunk.js.map",
     "runtime-main.js": "/tehnomedia-test/static/js/runtime-main.0df76d3d.js",
     "runtime-main.js.map": "/tehnomedia-test/static/js/runtime-main.0df76d3d.js.map",
     "static/js/2.01c9e67e.chunk.js": "/tehnomedia-test/static/js/2.01c9e67e.chunk.js",
     "static/js/2.01c9e67e.chunk.js.map": "/tehnomedia-test/static/js/2.01c9e67e.chunk.js.map",
     "index.html": "/tehnomedia-test/index.html",
-    "precache-manifest.d6ff16b27343f7ca2defe41ff5609bd0.js": "/tehnomedia-test/precache-manifest.d6ff16b27343f7ca2defe41ff5609bd0.js",
+    "precache-manifest.b26b8592e0b81c6f5d7f32e70ab1827e.js": "/tehnomedia-test/precache-manifest.b26b8592e0b81c6f5d7f32e70ab1827e.js",
     "service-worker.js": "/tehnomedia-test/service-worker.js",
     "static/css/main.9aa4ae74.chunk.css.map": "/tehnomedia-test/static/css/main.9aa4ae74.chunk.css.map",
     "static/js/2.01c9e67e.chunk.js.LICENSE.txt": "/tehnomedia-test/static/js/2.01c9e67e.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.0df76d3d.js",
     "static/js/2.01c9e67e.chunk.js",
     "static/css/main.9aa4ae74.chunk.css",
-    "static/js/main.a9948fc0.chunk.js"
+    "static/js/main.0fc1ac3e.chunk.js"
   ]
 }
